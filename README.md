@@ -1,4 +1,4 @@
-#🛡️ VMware VeeamZIP Automation Script
+🛡️ VMware VeeamZIP Automation Script
 
 This PowerShell script automates VeeamZIP backups for VMware vSphere virtual machines, including retention cleanup and HTML email reporting.
 It is designed for Veeam Backup & Replication (Community / Enterprise) environments using VMware PowerCLI.
