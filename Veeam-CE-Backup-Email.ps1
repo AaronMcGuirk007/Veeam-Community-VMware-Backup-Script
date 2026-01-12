@@ -90,7 +90,7 @@ $SMTPUser      = "yourgmailaddress@gmail.com" # Change to your Gmail Address
 $SMTPPasswd    = "googleapppassword"          # Generate an App Password (2FA MUST be enabled)
 $EmailFrom     = "noreply@yourdomain.com"     # Email FROM Address
 $EmailTo       = "recipient@yourdomain.com"   # Email TO Address
-$EmailSubject  = "VMware ALB Cluster VeeamZIP Backup Report" # Subject line of the Email Report
+$EmailSubject  = "VMware VeeamZIP Backup Report" # Subject line of the Email Report
 
 # --- Veeam / Timezone setup ---------------------------------------------------
 $Server           = Get-VBRServer -Name $HostName
@@ -197,4 +197,5 @@ if ($EnableNotification -and $MessageBody.Count -gt 0) {
   }
 
   Send-MailMessage @MailSplat -UseSsl
+
 }
